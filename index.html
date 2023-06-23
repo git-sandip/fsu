@@ -39,7 +39,11 @@
       </div>
       <div class="form-content">
         <div class="blood-form">
-          <form action="https://formspree.io/f/xjvdnnjg" method="POST">
+          <form
+            class="blood-donation-form"
+            action="https://formspree.io/f/xjvdnnjg"
+            method="POST"
+          >
             <div>
               <label for="name"> Your Name :</label>
 
@@ -82,7 +86,7 @@
             <div>
               <label for="Phonenumber">Phone Number:</label>
               <input
-                type="number"
+                type="tel"
                 name="phonenumber"
                 id="phonenumber"
                 placeholder="Phone Number"
@@ -117,6 +121,77 @@
       <div class="infotitle">
         <h1>Need Blood?</h1>
       </div>
+      <div class="info-choose">
+        <h2>Please Choose The Blood Group</h2>
+        <select name="group-choose" id="group-choose">
+          <option value="a">A</option>
+          <option value="b">B</option>
+          <option value="ab">AB</option>
+          <option value="o">O</option>
+        </select>
+        <select name="group-choose" id="group-choose">
+          <option value="+">+</option>
+          <option value="-">-</option>
+        </select>
+      </div>
+      <div class="footer">
+        <div class="complain">
+          <h2>Seeking personalized support? Request a call from our team.</h2>
+          <form class="complain-form" action="">
+            <!-- <label for="Full-Name">Full Name</label> -->
+            <input
+              type="text"
+              class="complain-name"
+              name="full-name"
+              placeholder="Full Name"
+              id="full-name"
+            />
+
+            <!-- <label for="Phone-number">Phone Number</label> -->
+            <input
+              type="tel"
+              class="complain-number"
+              name="phonenumber"
+              placeholder="Phone Number"
+              id="phonenumber"
+            />
+            <!-- <label for="complain">Complain</label> -->
+            <!-- <input type="text-area" class="complain-text" placeholder="Complain" name="complain" id="complain"> -->
+            <textarea
+              class="complain-text"
+              id="complain-text"
+              cols="20"
+              rows="3"
+              placeholder="Your Complain Here"
+            ></textarea>
+            <button class="complain-submit" type="submit">Send Us</button>
+          </form>
+        </div>
+        <div class="footer-info">
+          <h2>Info</h2>
+          <ul>
+            <li>Home</li>
+            <li>About US</li>
+            <li>Donate Blood</li>
+            <li>Class Routine</li>
+            <li>Projects</li>
+          </ul>
+          <div class="footer-info">
+            <h2>About US</h2>
+            <ul>
+              <li>Home</li>
+              <li>About US</li>
+              <li>Donate Blood</li>
+              <li>Class Routine</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+     
+  
     </div>
   </body>
 </html>

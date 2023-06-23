@@ -98,11 +98,11 @@ a {
 .blood-form {
   display: flex;
 }
-form {
+.blood-donation-form {
   display: flex;
   flex-direction: column;
 }
-form label {
+.blood-donation-form label {
   padding: 10px;
   color: white;
   color: #fff;
@@ -110,7 +110,7 @@ form label {
   font-family: Poppins;
   font-weight: 600;
 }
-form input {
+.blood-donation-form input {
   width: 10.1875rem;
   height: 2rem;
   flex-shrink: 0;
@@ -130,9 +130,104 @@ form input {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 108px;
 }
-form div {
+.blood-donation-form div {
   margin: 10px;
 }
 .infotitle h1 {
   text-align: center;
+}
+
+.footer {
+  display: flex;
+  width: 1433px;
+  height: 775px;
+  padding: 64px 108px;
+  align-items: center;
+  gap: 128px;
+  flex-shrink: 0;
+}
+.complain {
+  display: flex;
+  border-radius: 16px;
+  background: #4697d5;
+  margin-bottom: 20px;
+  width: 392px;
+  height: 677px;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.complain-form h2 {
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 130%;
+  letter-spacing: -0.035rem;
+}
+
+.complain-name,
+.complain-number {
+  background-color: transparent;
+  color: white;
+  width: 320px;
+  height: 56px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 12px;
+  border: 0.5px rgba(255, 255, 255, 0.6) solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+  margin-bottom: 90px; /* Add margin between the input fields */
+}
+.complain-text {
+  background-color: transparent;
+  color: white;
+  width: 320px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 12px;
+  border: 0.5px rgba(31, 28, 28, 0.6) solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+  margin-bottom: 10px; /* Add margin between the input fields */
+  resize: none; /* Prevent textarea resizing */
+}
+
+.complain-submit {
+  margin-top: 20px;
+  width: 125px;
+  height: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #ffa800;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+}
+.footer-info {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
 }
