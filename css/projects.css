@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: black;
+}
+.notification {
+  display: flex;
+  padding: 14px 80px;
+  justify-content: center;
+  gap: 16px;
+}
+.noti-text {
+  color: #000;
+  font-size: 16px;
+  line-height: 150%;
+}
+/* Navbar styles */
+nav {
+  padding: 16px 80px;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.links li {
+  margin-right: 10px;
+}
+
+.nav-button {
+  color: white;
+  background: var(--black, #000);
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+/* Here starts project page */
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.title {
+  text-align: center;
+  color: var(--main, #3b71fe);
+  font-size: 1.10431rem;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 171.5%;
+}
+.second-title {
+  color: var(--text, #0e0e2c);
+  text-align: center;
+  font-size: 2.00781rem;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 171.5%;
+}
+.title-content {
+  text-align: center;
+  color: rgba(14, 14, 44, 0.6);
+  text-align: center;
+  font-size: 1.10431rem;
+  font-family: Poppins;
+  line-height: 171.5%;
+  flex-shrink: 0;
+}
+.project-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.project-content h2,
+.project-content span {
+  margin: 0;
+}
+
+.content h2 {
+  color: var(--main, #3b71fe);
+  font-size: 0.80313rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 171.5%;
+}
+.content span {
+  color: var(--text, #0e0e2c);
+  font-size: 1.80706rem;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 171.5%;
+}
+.button button {
+  border-radius: 3.213px;
+  background: var(--main, #3b71fe);
+  display: flex;
+  width: 12.59913rem;
+  padding: 0.80313rem 1.20469rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.50194rem;
+}
